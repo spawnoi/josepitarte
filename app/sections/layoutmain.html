@@ -1,0 +1,36 @@
+<section id="mainlayout" data-transition="slide">
+    <header data-title="Main Layout" class="extended">
+        <nav>
+            <a href="#back" data-router="section" data-icon="home"></a>
+        </nav>
+        <nav class="right">
+            <a href="#splash" data-router="section" data-async="app/sections/splash.html" data-icon="lock" class="button"></a>
+        </nav>
+    </header>
+
+    <nav class="groupbar">
+        <a href="#layout-main-art1" data-router="article" data-label="Profile" class="active"></a>
+        <a href="#layout-main-art2" data-router="article" data-label="Inbox" data-count="19"></a>
+        <a href="#layout-main-art3" data-router="article" data-label="Map"></a>
+        <a href="#layout-main-art4" data-router="article" data-label="Settings"></a>
+    </nav>
+
+    <footer>
+        <nav>
+            <a href="#layout-main-art1" data-router="article" data-icon="home" class="active"></a>
+            <a href="#layout-main-art2" data-router="article" data-icon="inbox" data-count="80"></a>
+            <a href="#layout-main-art3" data-router="article" data-icon="compass"></a>
+            <a href="#layout-main-art4" data-router="article" data-icon="settings"></a>
+        </nav>
+    </footer>
+
+    <article id="layout-main-art1" class="active"></article>
+    <article id="layout-main-art2"></article>
+
+    <article id="layout-main-art3">
+    <div id='map_canvas' style='width:100%; height:400px;'></div>
+    <div id="respuesta"></div>
+    </article>
+    
+    <article id="layout-main-art4"></article>
+</section>
